@@ -1,3 +1,5 @@
+![Planification](https://github.com/Offori/data-warehouse-sql/blob/main/docs/planification.PNG?raw=true)
+
 # data-warehouse-sql
 Welcome to my **data warehouse and anlytics project** repo
 This project demonstrate a comprehensive warehousing and analytics.
