@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="omWViL9id01bKk2q3NZ5">
+    <mxGraphModel dx="872" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G19P5AnbMfle4WGFrubt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="130" width="120" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-2" value="Source" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G19P5AnbMfle4WGFrubt-6" target="G19P5AnbMfle4WGFrubt-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="G19P5AnbMfle4WGFrubt-6" target="G19P5AnbMfle4WGFrubt-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.336;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G19P5AnbMfle4WGFrubt-6" target="G19P5AnbMfle4WGFrubt-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-6" value="crm" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/100-basic-for-user-interface/32/72-folder-128.png" parent="1" vertex="1">
+          <mxGeometry x="120" y="190" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="G19P5AnbMfle4WGFrubt-7" target="G19P5AnbMfle4WGFrubt-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-7" value="erp" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/100-basic-for-user-interface/32/72-folder-128.png" parent="1" vertex="1">
+          <mxGeometry x="120" y="310" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="290" y="160" width="90" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="290" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-10" value="crm_cust_info" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="280" y="190" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-11" value="crm_sales_details" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="280" y="260" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-12" value="crm_prd_info" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="280" y="230" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-13" value="erp_cust_az12" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="280" y="350" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-14" value="erp_px_cat_g1v2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="280" y="425" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-15" value="erp_loc_a101" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="280" y="390" width="110" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="G19P5AnbMfle4WGFrubt-7" target="G19P5AnbMfle4WGFrubt-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G19P5AnbMfle4WGFrubt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.182;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="G19P5AnbMfle4WGFrubt-7" target="G19P5AnbMfle4WGFrubt-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,55 @@
+# Data_warehouse_SQL
+
+## Naming Convention
+
+### Bronze Rules
+- All names should start with the source system name and table names must match their original names without renaming  
+- sourcesystem_entity
+  - sourcesystem: name of the source system (e.g: crm, erp)
+  - entity: exact name from the source system
+  - Example: crm_customer_sytem -> Customer informations from crm system
+ 
+### Gild Rules
+- All names should start from the source system name and table names must match the original names without remaining
+- sourcesystem_entity
+  - sourcesystem: name of the source system (e.g: crm, erp)
+  - entity: exact name from the source system
+  - Example: crm_customer_system -> Customer informations from crm system
+
+### Gold Rules
+- All names should meet meaningful business alligned names for tables, starting with the category prefix
+- category_entity
+  - category: describes the role of a table such as dim (dimension) or fact (Fact table)
+  - entity: name of a table, aligned with the business domain (e.g: customer, product, sales)
+  - Example:
+    - dim_customer -> dimension table of customer data
+    - fact_sales -> Fact table containing sales transaction
+
+
+| Pattern      | Meaning         | Example                        |
+|-----------   |------------     |------------                    |
+| dim_         | Diention Table  | dim_customer dim_product       |
+| Fact         | fact Table      | fact_sales                     |
+| agg_         | Aggregate table | agg_customers agg_sales_monthly| 
+
+## Column naming convention
+
+### Surrogate Keys 
+- All primary keys in dimension tables must use the suffix _key
+- table_name_key
+  - table_name: refers to the table name or entity the key belongs to
+  - _key: a suffix indicating that this column is a surrogate key
+  - e.g: customer_key, surrogate key in dim_customer table
+### Technical columns
+All technical columns must start with the prefix dwh_ following by the descriptive name indicating the column purpose.
+- dwh_column_name
+  - dwh_: prefix exclusively for system generated metadada
+  - column_name: descriptive name indicating the column purpose
+  - example: dwh_load_date -> system generated column used to store the date when the record was loaded
+ 
+##Store Procedure
+- All store procedure used for loading data must follow the naming pattern: load_layer
+  - layer: represent the layer behind the loaded such as bronze, silver and gold
+  - e.g:
+    - load_bronze -> store procedure into load data for bronze layer
+    - load_silver -> store procedure into load data for silver layer
